@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    url='https://github.com/Nintendude64/microcenterpricemonitor',
+    url='https://github.com/Nintendude64/micro-center-price-monitor',
     author="Martin Daniels",
     author_email="martindaniels02@gmail.com",
     classifiers=[
@@ -15,10 +15,10 @@ setup(
         "Operating System :: OS Independent",
     ],
     name='micro_center_price_monitor',
-    version='0.0.1',
+    version='0.0.3',
     description='Price monitor tool for Micro Center',
     py_modules=["scraper","price_checker","mail","data","custom_exceptions","__init__"],
-    package_dir={'':'src'},
+    packages={'':'src'},
     long_description=long_description,
     long_description_content_type="text/markdown",
     extras_require= {

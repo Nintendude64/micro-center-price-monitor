@@ -1,4 +1,4 @@
-from src.price_checker import PriceChecker
+from src.micro_center_scraper.price_checker import PriceChecker
 
 
 def main():

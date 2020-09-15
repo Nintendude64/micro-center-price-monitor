@@ -2,7 +2,7 @@
 
 ## Table of Contents
 * [Project Description](#project-description)
-* [Usage](#usage)
+* [How to Use](#how-to-use)
 * [Packages Used](#packages-used)
 * [Installation](#installation)
 * [Other Requirements](#other-requirements)
@@ -11,7 +11,7 @@
 ## Project Description
 This is a simple Python web scraper to monitor prices on Micro Center's online store for a product you may be interested in.
 
-## Usage:
+## How to Use:
 Upon running the program: there will be a prompt to provide a product to search:
 
 * Enter the name of the product and hit Return.
@@ -25,10 +25,10 @@ Upon running the program: there will be a prompt to provide a product to search:
 * lxml: version 4.3.4
 
 ## Installation
-Install micro_center_scraper with pip:
+Install micro-center-price-monitor with pip:
 
 ```
-pip install micro_center_scraper
+pip install micro-center-price-monitor
 ```
 
 ## Other Requirements
