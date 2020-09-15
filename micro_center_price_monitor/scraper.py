@@ -1,8 +1,8 @@
 import requests
 from bs4 import BeautifulSoup
-from src.data import Browser, WebPage, Product
+from micro_center_price_monitor.data import Browser, WebPage, Product
 from lxml import html, etree
-from src.custom_exceptions import *
+from micro_center_price_monitor.custom_exceptions import *
 
 """
 

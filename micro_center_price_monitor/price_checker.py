@@ -1,5 +1,5 @@
-from src.scraper import MicroCenterScraper
-from src.mail import Email
+from micro_center_price_monitor.scraper import MicroCenterScraper
+from micro_center_price_monitor.mail import Email
 import datetime, time
 
 class PriceChecker:
