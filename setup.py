@@ -15,10 +15,10 @@ setup(
         "Operating System :: OS Independent",
     ],
     name='micro_center_price_monitor',
-    version='0.0.5',
+    version='0.0.6',
     description='Price monitor tool for Micro Center',
     py_modules=["scraper","price_checker","mail","data","custom_exceptions","__init__"],
-    packages={'': 'micro_center_price-monitor'},
+    packages=["micro_center_price_monitor"],
     long_description=long_description,
     long_description_content_type="text/markdown",
     extras_require= {
@@ -27,6 +27,11 @@ setup(
             "bs4==0.0.1",
             "lxml==4.3.4",
             "requests==2.22.0",
+        ]
+    },
+    entry_points={
+        "console_scripts": [            
+            "micro_center_price_monitor=micro_center_price_monitor.__main__:main"
         ]
     }
         
