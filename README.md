@@ -18,7 +18,7 @@ This is a simple Python web scraper to monitor prices on Micro Center's online s
 from micro_center_price_monitor.price_checker import PriceChecker
 
 # Start search
-check_obj = PriceChecker().search()
+PriceChecker().search()
 
 """
 
