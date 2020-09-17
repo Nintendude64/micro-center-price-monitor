@@ -2,7 +2,6 @@
 
 ## Table of Contents
 * [Project Description](#project-description)
-* [How to Use](#how-to-use)
 * [Usage](#usage)
 * [Packages Used](#packages-used)
 * [Installation](#installation)
